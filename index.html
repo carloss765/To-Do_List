@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Header/headerStyle.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Poppins:wght@400;700&family=Bebas+Neue&family=Lato:wght@400;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link href="Sidebar/sidebarStyle.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Poppins:wght@400;700&family=Bebas+Neue&family=Lato:wght@400;700&family=Nunito:wght@400;700&display=swap"
+        rel="stylesheet">
 
     <title>To-Do List</title>
 </head>
+
 <body>
     <!-- Body -->
-    <style>body{margin:0;padding:0; background-color: rgb(197, 67, 49);}</style>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(197, 67, 49);
+        }
+    </style>
 
     <!-- Header -->
     <div class="header">
@@ -19,13 +30,36 @@
         <img src="Header/icon/Logo.png" alt="logo" class="logo">
         <h1 class="Title">To-Do List</h1>
         <h1 class="Title2">proyect</h1>
+        <button class="buttonNotification">
+            <img src="Header/icon/notification.png" alt="notification" class="notificationimg">
+        </button>
+        <img src="Header/icon/line.png" alt="hide" id="hidenImg" class="lineimg">
+        <button class="buttonSearch">
+            <img src="Header/icon/search.png" alt="search" class="searchimg">
+        </button>
+        <button class="buttonHelp">
+            <img src="Header/icon/help.png" alt="help" class="helpimg">
+        </button>
+        <button class="buttonUser">
+            <img src="Header/icon/user.png" alt="user" class="userimg">
+        </button>
     </div>
     <!-- Hiden Div -->
     <div id="HidenDiv">
         <div class="title">Create by carloss765</div>
-        <div class="enlace"><img src="Header/icon/github.png" alt="github" class="github"><a href="https://github.com/carloss765" target="_blank">Github</a></div>
+        <div class="enlace"><img src="Header/icon/github.png" alt="github" class="github"><a
+                href="https://github.com/carloss765" target="_blank">Github</a></div>
     </div>
+
+    <!-- Sidebar -->
+        <div class="sidebar">
+
+        </div>
+
     <!-- Script Header -->
-     <script src="Header/headerScript.js"></script>
+    <script src="Header/headerScript.js"></script>
+    <!-- Script Sidebar -->
+    <script src="Sidebar/sidebarScript.js"></script>
 </body>
+
 </html>

@@ -7,6 +7,7 @@
     margin: 0%;
     padding: 0%;
 }
+
 /*? Menu */
 #menuImg {
     width: 14px;
@@ -15,8 +16,9 @@
     margin-top: 9px;
     background: transparent;
     cursor: pointer;
-    
+
 }
+
 /*#menuImg:hover {
     background-color: rgb(209, 221, 213);
     border : 2px solid rgb(209, 221, 213);
@@ -31,6 +33,7 @@
     margin-left: 13px;
     margin-top: 9px;
 }
+
 /*? Title */
 .Title {
     font-size: 11px;
@@ -40,6 +43,7 @@
     margin-left: 8px;
     margin-top: 9px;
 }
+
 .Title2 {
     font-size: 11px;
     font-family: 'Lato', sans-serif;
@@ -48,6 +52,7 @@
     margin-left: 4px;
     margin-top: 9px;
 }
+
 /*? Hiden Div */
 #HidenDiv {
     display: none;
@@ -59,6 +64,7 @@
     border-radius: 5px;
     margin-left: 0px;
 }
+
 /* title */
 .title {
     background-color: rgb(0, 202, 114);
@@ -69,11 +75,12 @@
     height: 55px;
     margin-top: 10px;
     margin-left: 10px;
-    padding-top: 5px;   
+    padding-top: 5px;
     font-size: 16px;
     border: rgb(0, 202, 114);
     border-radius: 15px;
 }
+
 /* Github */
 .github {
     width: 15px;
@@ -81,6 +88,7 @@
     margin-left: 0px;
     margin-top: 0px;
 }
+
 /* Enlace */
 .enlace {
     text-align: center;
@@ -90,4 +98,112 @@
     height: 20px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+}
+
+.buttonUser {
+    background: transparent;
+    width: 30px;
+    height: 30px;
+    right: 12px;
+    top: 2px;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.userimg {
+    width: 26px;
+    height: 26px;
+}
+
+.buttonUser:hover {
+    background-color: rgb(211, 224, 216)
+}
+
+.buttonHelp {
+    background: transparent;
+    width: 30px;
+    height: 30px;
+    right: 55px;
+    top: 2px;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.helpimg {
+    width: 11px;
+    height: 11px;
+}
+
+.buttonHelp:hover {
+    background-color: rgb(211, 224, 216)
+}
+
+.buttonSearch {
+    background: transparent;
+    width: 30px;
+    height: 30px;
+    right: 90px;
+    top: 2px;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.searchimg {
+    width: 11px;
+    height: 11px;
+}
+
+.buttonSearch:hover {
+    background-color: rgb(211, 224, 216)
+}
+
+.lineimg {
+    width: 3px;
+    height: 16px;
+    left: 1093px;
+    top: 8px;
+    position: relative;
+}
+
+.buttonNotification {
+    background: transparent;
+    width: 30px;
+    height: 30px;
+    right: 127px;
+    top: 2px;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.notificationimg {
+    width: 11px;
+    height: 11px;
+}
+
+.buttonNotification:hover {
+    background-color: rgb(211, 224, 216)
 }
