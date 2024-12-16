@@ -1,10 +1,121 @@
 .sidebar {
     display: flex;
     background-color: rgb(245, 250, 246);
-    width: 100px;
-    height: 100px;
+    width: 255px;
+    height: 100%;
     margin: 0%;
     padding: 0%;
     border-radius: 5px;
     
+}
+.buttonHome {
+    background-color: transparent;
+    width: 233px;
+    height: 30px;
+    top:54px;
+    left: 10px; 
+    display: flex;
+    align-items: first center;
+    border: none;
+    padding: 10px;
+    justify-content: flex-start;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+}
+.homeimg {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.labelHome {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.buttonHome:hover {
+    background-color: rgb(236, 237, 237);
+}
+.buttonMywork {
+    background-color: transparent;
+    width: 233px;
+    height: 30px;
+    top: 87px;
+    left: 10px; 
+    display: flex;
+    align-items: first center;
+    border: none;
+    padding: 10px;
+    justify-content: flex-start;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+}
+.myworkimg {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.labelMywork {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.buttonMywork:hover {
+    background-color: rgb(236, 237, 237);
+}
+.line2img {
+    width: 100%;
+    height: 21px;
+    top: 69px;
+    position: relative;
+    padding: 0;
+}
+.buttonFavorites {
+    background-color: transparent;
+    width: 233px;
+    height: 30px;
+    top: 139px;
+    left: 10px; 
+    display: flex;
+    align-items: first center;
+    border: none;
+    padding: 10px;
+    justify-content: flex-start;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+}
+.favoritesimg {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.labelFavorites {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.buttonFavorites:hover {
+    background-color: rgb(236, 237, 237);
+}
+.line3img {
+    width: 100%;
+    height: 21px;
+    top: 120px;
+    left: 0px;
+    position: relative;
+    justify-content: center;
+    padding: 0;
 }

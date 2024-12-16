@@ -3,17 +3,17 @@
     display: flex;
     background-color: rgb(226, 240, 231);
     width: 100%;
-    height: 34px;
+    height: 49px;
     margin: 0%;
     padding: 0%;
 }
 
 /*? Menu */
 #menuImg {
-    width: 14px;
-    height: 14px;
-    margin-left: 10px;
-    margin-top: 9px;
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    margin-top: 14px;
     background: transparent;
     cursor: pointer;
 
@@ -28,29 +28,29 @@
 /*? Logo */
 .logo {
     background: transparent;
-    width: 12px;
-    height: 12px;
-    margin-left: 13px;
-    margin-top: 9px;
+    width: 22px;
+    height: 22px;
+    margin-left: 23px;
+    margin-top: 14px;
 }
 
 /*? Title */
 .Title {
-    font-size: 11px;
+    font-size: 16px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: rgb(0, 0, 0);
-    margin-left: 8px;
-    margin-top: 9px;
+    margin-left: 18px;
+    margin-top: 14px;
 }
 
 .Title2 {
-    font-size: 11px;
+    font-size: 16px;
     font-family: 'Lato', sans-serif;
     font-weight: 200;
     color: rgb(82, 82, 82);
     margin-left: 4px;
-    margin-top: 9px;
+    margin-top: 14px;
 }
 
 /*? Hiden Div */
@@ -102,8 +102,8 @@
 
 .buttonUser {
     background: transparent;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     right: 12px;
     top: 2px;
     display: flex;
@@ -117,8 +117,8 @@
 }
 
 .userimg {
-    width: 26px;
-    height: 26px;
+    width: 36px;
+    height: 36px;
 }
 
 .buttonUser:hover {
@@ -127,9 +127,9 @@
 
 .buttonHelp {
     background: transparent;
-    width: 30px;
-    height: 30px;
-    right: 55px;
+    width: 40px;
+    height: 40px;
+    right: 65px;
     top: 2px;
     display: flex;
     align-items: center;
@@ -142,8 +142,8 @@
 }
 
 .helpimg {
-    width: 11px;
-    height: 11px;
+    width: 15px;
+    height: 15px;
 }
 
 .buttonHelp:hover {
@@ -152,9 +152,9 @@
 
 .buttonSearch {
     background: transparent;
-    width: 30px;
-    height: 30px;
-    right: 90px;
+    width: 40px;
+    height: 40px;
+    right: 108px;
     top: 2px;
     display: flex;
     align-items: center;
@@ -167,8 +167,8 @@
 }
 
 .searchimg {
-    width: 11px;
-    height: 11px;
+    width: 15px;
+    height: 15px;
 }
 
 .buttonSearch:hover {
@@ -176,18 +176,18 @@
 }
 
 .lineimg {
-    width: 3px;
-    height: 16px;
-    left: 1093px;
-    top: 8px;
+    width: 8px;
+    height: 21px;
+    left: 954px;
+    top: 12px;
     position: relative;
 }
 
 .buttonNotification {
     background: transparent;
-    width: 30px;
-    height: 30px;
-    right: 127px;
+    width: 40px;
+    height: 40px;
+    right: 161px;
     top: 2px;
     display: flex;
     align-items: center;
@@ -200,8 +200,8 @@
 }
 
 .notificationimg {
-    width: 11px;
-    height: 11px;
+    width: 15px;
+    height: 15px;
 }
 
 .buttonNotification:hover {
