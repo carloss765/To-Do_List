@@ -119,3 +119,72 @@
     justify-content: center;
     padding: 0;
 }
+.workSpace {
+    background-color: transparent;
+    width: 130px;
+    height: 30px;
+    top: 175px;
+    left: 10px; 
+    display: flex;
+    align-items: first center;
+    border: none;
+    padding: 10px;
+    justify-content: flex-start;
+    position: absolute;
+    border-radius: 5px;
+}
+.workspaceimg {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.labelWorkspace {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.buttonOptions {
+    background-color: transparent;
+    width: 30px;
+    height: 25px;
+    top: 190px;
+    left: 180px; 
+    display: flex;
+    align-items: first center;
+    border: none;
+    padding: 10px;
+    justify-content: flex-start;
+    position: absolute;
+    border-radius: 5px;
+    background-image: url("icon/3points.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+}
+.buttonOptions:hover {
+    background-color: rgb(236, 237, 237);
+}
+.buttonSearch2 {
+    background-color: transparent;
+    width: 30px;
+    height: 25px;
+    top: 190px;
+    left: 213px;
+    display: flex;
+    align-items: first center;
+    border: none;
+    padding: 10px;
+    justify-content: flex-start;
+    position: absolute;
+    border-radius: 5px;
+    background-image: url("icon/search2.png");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: center;
+}
+.buttonSearch2:hover {
+    background-color: rgb(236, 237, 237);
+}

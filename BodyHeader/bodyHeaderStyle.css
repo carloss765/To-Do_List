@@ -1,0 +1,79 @@
+.bodyHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 1084px;
+    height: 175px;
+    position: absolute;
+    top: 49px;
+    left: 265px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+.Headertitle {
+    display: flex;
+    background: transparent;
+    width: 268px;
+    height: 33px;
+    position: absolute;
+    top: 19px;
+    left: 40px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+.labelHeaderTitle {
+    font-size: 25px;
+    font-family: 'Poppins,Roboto,"Noto Sans Hebrew"' , sans-serif;
+    color: rgb(50, 51, 56);
+    margin-left: 3px;
+    margin-top: 0px;
+    align-items: center;
+    font-weight: bold;
+    padding-top: 2px;
+}
+.chevron-downimg {
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+
+}
+.Headertitle:hover {
+    background-color: rgb(236, 237, 237);
+    border-radius: 5px;
+}
+.buttonHeaderOptions {
+    background-image: url("icon/3points2.png");
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center;
+    width: 35px;
+    height: 35px;
+    top: 19px;
+    left: 1020px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+}
+.buttonHeaderOptions:hover {
+    background-color: rgb(236, 237, 237);
+}
+.Headertitle2 {
+    background-color: blue;
+    display: flex;
+    width: 148px;
+    height: 33px;
+    position: absolute;
+    top: 58px;
+    left: 40px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
