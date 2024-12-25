@@ -1,0 +1,1 @@
+document.getElementById("HeaderSubTitle").addEventListener("click", function () { this.classList.add("textActive"); });
